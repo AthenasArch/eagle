@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.5.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;h5&gt;Hi-Link Power Supply&lt;/h5&gt;
+&lt;br/&gt;
+
+HLK-PM01 3W
+&lt;br /&gt;
+&lt;br/&gt;
+Author: &lt;a href="https://github.com/AhmedSaid/EAGLELibraries"&gt;Ahmed Said&lt;/a&gt;</description>
+<packages>
+<package name="HLK-PM01">
+<description>&lt;h5&gt;Hi-Link Power Supply&lt;/h5&gt;
+&lt;br/&gt;
+
+HLK-PM01 3W
+&lt;br /&gt;
+&lt;br/&gt;
+Author: &lt;a href="https://github.com/AhmedSaid/EAGLELibraries"&gt;Ahmed Said&lt;/a&gt;</description>
+<wire x1="-17" y1="10.1" x2="17" y2="10.1" width="0.127" layer="21"/>
+<wire x1="17" y1="10.1" x2="17" y2="-10.1" width="0.127" layer="21"/>
+<wire x1="17" y1="-10.1" x2="-17" y2="-10.1" width="0.127" layer="21"/>
+<wire x1="-17" y1="-10.1" x2="-17" y2="10.1" width="0.127" layer="21"/>
+<pad name="AC1" x="-14.7" y="2.5" drill="1.016" shape="square"/>
+<pad name="AC2" x="-14.7" y="-2.5" drill="1.016" shape="square"/>
+<pad name="-V0" x="14.7" y="7.7" drill="1.016" shape="square"/>
+<pad name="+V0" x="14.7" y="-7.7" drill="1.016" shape="square"/>
+<text x="-15.24" y="7.62" size="1.27" layer="21">&gt;NAME</text>
+<pad name="AC3" x="-14.7" y="-0.0019" drill="1.016" shape="square"/>
+<pad name="AC4" x="-14.7" y="-5.9963" drill="1.016" shape="square"/>
+<wire x1="-13.6652" y1="0.0889" x2="-11.1252" y2="0.0889" width="0.127" layer="21"/>
+<wire x1="-11.1252" y1="0.0889" x2="-11.1252" y2="-2.8575" width="0.127" layer="21"/>
+<wire x1="-11.1252" y1="-2.8575" x2="-11.1252" y2="-6.0071" width="0.127" layer="21"/>
+<wire x1="-11.1252" y1="-6.0071" x2="-13.716" y2="-6.0071" width="0.127" layer="21"/>
+<wire x1="-15.5956" y1="-2.54" x2="-16.3068" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-16.3068" y1="-2.54" x2="-16.3068" y2="-2.5908" width="0.127" layer="21"/>
+<wire x1="-16.3068" y1="-2.54" x2="-16.3068" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-16.3068" y1="2.54" x2="-15.6972" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-16.002" y1="2.5908" x2="-16.002" y2="4.8768" width="0.127" layer="21"/>
+<wire x1="-16.002" y1="4.8768" x2="-13.3604" y2="4.8768" width="0.127" layer="21"/>
+<wire x1="-13.3604" y1="4.8768" x2="-13.3604" y2="4.826" width="0.127" layer="21"/>
+<wire x1="-11.1252" y1="-2.8575" x2="-8.6868" y2="-2.8575" width="0.127" layer="21"/>
+<text x="-13.1064" y="4.4704" size="1.016" layer="21">250mA</text>
+<text x="-8.4328" y="-3.1623" size="1.016" layer="21">450mA</text>
+<wire x1="-16.9418" y1="-14.5161" x2="21.0566" y2="-14.5161" width="0.127" layer="21"/>
+<wire x1="-16.9418" y1="-14.5161" x2="-16.9418" y2="8.4963" width="0.127" layer="21"/>
+<pad name="+V1" x="18.8783" y="-12.0307" drill="1.016" shape="square"/>
+<pad name="-V1" x="18.8656" y="5.9728" drill="1.016" shape="square"/>
+<wire x1="21.0566" y1="-14.5161" x2="21.0566" y2="8.4963" width="0.127" layer="21"/>
+<wire x1="21.0566" y1="8.4963" x2="17.0053" y2="8.4963" width="0.127" layer="21"/>
+<text x="13.1064" y="-12.6492" size="1.016" layer="21">+12v</text>
+<text x="14.1478" y="5.1816" size="1.016" layer="21">0v</text>
+</package>
+</packages>
+<symbols>
+<symbol name="PS">
+<wire x1="-15.24" y1="10.16" x2="15.24" y2="10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="-15.24" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-10.16" x2="-15.24" y2="10.16" width="0.254" layer="94"/>
+<pin name="AC1" x="-20.32" y="2.54" length="middle"/>
+<pin name="AC2" x="-20.32" y="-2.54" length="middle"/>
+<pin name="-VO" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="+VO" x="20.32" y="7.62" length="middle" rot="R180"/>
+<text x="-12.7" y="7.62" size="1.27" layer="94">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="HLK-PM01" prefix="HLK">
+<description>&lt;h5&gt;Hi-Link Power Supply&lt;/h5&gt;
+&lt;br/&gt;
+
+HLK-PM01 3W
+&lt;br /&gt;
+&lt;br/&gt;
+Author: &lt;a href="https://github.com/AhmedSaid/EAGLELibraries"&gt;Ahmed Said&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PS" x="-10.16" y="2.54"/>
+</gates>
+<devices>
+<device name="3W" package="HLK-PM01">
+<connects>
+<connect gate="G$1" pin="+VO" pad="+V0"/>
+<connect gate="G$1" pin="-VO" pad="-V0"/>
+<connect gate="G$1" pin="AC1" pad="AC1"/>
+<connect gate="G$1" pin="AC2" pad="AC2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
